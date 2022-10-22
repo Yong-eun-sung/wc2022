@@ -6,7 +6,7 @@
 nn = prompt("1부터 어디까지 더하고 싶으세요?")
 sum = 0
 for ( k=1; k<=nn ; k++ ) {
-}sum = sum + k
+sum = sum + k}
 document.write("<h1>" + sum + "</h1>")
 </script>
 </body>
