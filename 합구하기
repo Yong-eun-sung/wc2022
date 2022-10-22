@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>합구하기</title>
+</head>
+<body>
+<h1>add function</h1>
+<script>
+function sum(a) {
+  total =0
+  for ( k=0 ; k<= a ; k++ ) {
+    total += k
+  }
+  return total
+}
+d=sum(100000000)
+document.write("<h1>" + d + "</h1>")
+</script>
+</body>
+</html>
